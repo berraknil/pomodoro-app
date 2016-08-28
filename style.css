@@ -1,0 +1,108 @@
+body {
+  font-family: 'Indie Flower', cursive;
+  background-color: #FFEAC9;
+  font-size: 100%;
+}
+
+header {
+  text-align: center;
+}
+
+img {
+  width: 7em;
+}
+
+h1 {
+  color: #19B589;
+  font-size: 2.5em;
+  margin: .5em 0;
+}
+
+h2 {
+  font-size: 2em;
+  color: #FF2151;
+}
+
+h3 {
+  margin-bottom: 1em;
+  margin-top: 1em;
+  font-size: 1.5em;
+  color: #FF2151;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+button {
+  margin: .5em;
+  width: 4em;
+  height: 3em;
+  background: transparent;
+  border: transparent;
+  outline: transparent;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60vh;
+  text-align: center;
+  margin: auto;
+}
+
+#title {
+  margin-top: .1em;
+  margin-bottom: .1em;
+}
+
+#time {
+  font-size: 2.5em;
+  font-weight: 800;
+}
+
+.interface {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .1em;
+  margin-top: .1em;
+}
+
+#pomoTime {
+  font-weight: 800;
+  font-size: 1.8em;
+}
+
+#breakTime {
+  font-weight: 800;
+  font-size: 1.8em;
+}
+
+.fa-chevron-down {
+  color: #FF2151;
+}
+
+.fa-chevron-up {
+  color: #19B589;
+}
+
+.fa-undo {
+  color: #19B589;
+}
+
+.fa-play {
+  color: #FFAD29;
+}
+
+@media screen and (min-width: 700px) {
+  body {
+    font-size: 150%;
+  }
+}

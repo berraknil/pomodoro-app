@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Pomodoro Timer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Pomodoro Timer</h1>
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/460540/tomato-153272.svg">
+    </header>
+
+    <div class="main">
+        <h2 id="title">Be Productive!!</h2>
+        <div id="time">25:00</div>
+
+        <h3>Adjust Pomodoro</h3>
+        <div class="interface">
+            <button onclick="pomoMinus()" id="pomoMinus"><i class="fa fa-chevron-down fa-2x"></i></button>
+            <span id="pomoTime">25:00</span>
+            <button onclick="pomoPlus()" id="pomoPlus"><i class="fa fa-chevron-up fa-2x"></i></button>
+            <br>
+            <button onclick="startPomo()" id="start"><i class="fa fa-play fa-2x"></i></button>
+            <button onclick="resetTimer()" id="resetTimer"><i class="fa fa-undo fa-2x"></i></button>
+        </div>
+
+        <h3>Adjust Break</h3>
+        <div class="interface">
+            <button onclick="breakMinus()" id="breakMinus"><i class="fa fa-chevron-down fa-2x"></i></button>
+            <span id="breakTime">05:00</span>
+            <button onclick="breakPlus()" id="breakPlus"><i class="fa fa-chevron-up fa-2x"></i></button>
+            <br>
+            <button onclick="startBreak()" id="break"><i class="fa fa-play fa-2x"></i></button>
+            <button onclick="resetBreak()" id="resetBreak"><i class="fa fa-undo fa-2x"></i></button>
+        </div>
+
+    </div>
+    <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
